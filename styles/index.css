@@ -5,8 +5,12 @@ body {
 	font-size: 20px;
 	color: #c7c7c7;
 	background-color: black;
-    font-family: 'Abel', sans-serif;
+	font-family: 'Abel', sans-serif;
 }
 img {
 	align: center;
+}
+footer {
+	font-size: 12px;
+	font: cursive;
 }
