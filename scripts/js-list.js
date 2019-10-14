@@ -11,11 +11,10 @@ function listFunction() {
 	var listContent = prompt("What'chu want in here?");
 	listItem.textContent = listContent;
 	list.appendChild(listItem);
-}
-html.onClick = function(e) {	
+	
 	listItem.onClick = function(e) {
 		e.stopPropagation();
 		var listContent = prompt('Enter new content to replace the old list item');
 		this.textContent = listContent;
-		}
+	}
 }
