@@ -6,10 +6,12 @@ body {
 	color: #c7c7c7;
 	background-color: black;
 	font-family: 'Abel', sans-serif;
+	background-image: url("/images/bg.jpg")
 }
 img {
 	align: center;
 }
+
 footer {
 	font-size: 12px;
 	font: cursive;
