@@ -17,6 +17,20 @@ footer {
 	font: cursive;
 }
 
+aside {
+	float: right;
+	padding-left: 1%
+}
+
+th {
+	color: green;
+	font: bold 15px Arial;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
 topnav {
   overflow: hidden;
   background-color: #333;
