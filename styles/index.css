@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 h1 {
 	text-align: center;
 }
@@ -76,4 +77,62 @@ topnav a:hover {
 topnav a.active {
 	background-color: #7e689c;
 	color: white;
+=======
+h1 {
+	text-align: center;
+}
+body {
+	font-size: 20px;
+	color: #c7c7c7;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("/images/bg.jpg")
+}
+img {
+	align: center;
+}
+
+footer {
+	font-size: 12px;
+	font: cursive;
+}
+
+aside {
+	float: right;
+	padding-left: 1%
+}
+
+th {
+	color: green;
+	font: bold 15px Arial;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+topnav {
+  overflow: hidden;
+  background-color: #333;
+  display: block;
+}
+
+topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+topnav a.active {
+  background-color: #7e689c;
+  color: white;
+>>>>>>> Stashed changes
 }
