@@ -36,7 +36,8 @@ aside {
 	right: 50%;
 	width: 600px;
 	padding: 10px;
-	border: 1px solid white;
+	margin-left: 10px;
+	/* border: 1px solid white; */
 }
 
 th {
@@ -76,4 +77,15 @@ topnav a:hover {
 topnav a.active {
 	background-color: #7e689c;
 	color: white;
+}
+
+@media only screen and (max-width: 1260px) {
+  aside {
+	position: block;
+	float: right;
+	width: auto;
+	width: 100%;
+	padding: 10px;
+	/* border: 1px solid white; */
+  }
 }
