@@ -48,5 +48,12 @@ h1 {
 }
 
 article {
+  border-top: 1mm solid #cc0000;
+  border-bottom: 1mm solid #cc0000;
+  background-color: white;
   background: url(top-image.png) no-repeat left top;
+  background: linear-gradient(to bottom, rgba(0, 0, 0,.15), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), 
+        url(top-image.png) no-repeat left top,
+        url(bottom-image.png) no-repeat left bottom;
+  
 }

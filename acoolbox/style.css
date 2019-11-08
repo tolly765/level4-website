@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+p {
+	width: 200px;
+	height: 80px;
+	margin: auto;
+	
+
+	text-align: center;
+	/* vertical-align: center; */
+	font-size: 1.1rem; /* default size was 16, so times by 1.1 to make 18 */
+	line-height: 4.5;
+
+	background-color: red;
+	color: red;
+	text-shadow: 1px 2px black;
+	background-image: linear-gradient(to top right, rgba(0,0,0,.2), rgba(0,0,0,0), rgba(0,0,0,.2) );
+
+	border: 1px solid #cc0000;
+	border-radius: 20px;
+	box-shadow: 0.25px 0.25px 0.25px black;
+	
+}
